@@ -11,6 +11,7 @@ import Alamofire
 import ObjectMapper
 import AlamofireObjectMapper
 import SwiftLoader
+import ImageLoader
 
 final class ViewController: UITableViewController {
     
@@ -52,7 +53,7 @@ extension ViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCellWithIdentifier("cellID", forIndexPath: indexPath) as! PostTableViewCell
         let post = posts[indexPath.row]
         cell.post = post
-        cell.thumbImageView.hnk_setImageFromURL(NSURL(string: post.thumbnail!)!)
+        cell.thumbImageView.load(NSURL(string: post.thumbnail!)!)
 
         return cell
     }
