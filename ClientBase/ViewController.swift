@@ -7,9 +7,6 @@
 //
 
 import UIKit
-import Alamofire
-import ObjectMapper
-import AlamofireObjectMapper
 import SwiftLoader
 import ImageLoader
 

@@ -146,18 +146,10 @@
 		BE3BB8321B90A4EC00D6C90D /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				BE3BB8331B90A4EC00D6C90D /* Controllers */,
 				BE3BB8341B90A4EC00D6C90D /* Domain */,
 				BE3BB8391B90A4EC00D6C90D /* Network */,
 			);
 			path = Application;
-			sourceTree = "<group>";
-		};
-		BE3BB8331B90A4EC00D6C90D /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		BE3BB8341B90A4EC00D6C90D /* Domain */ = {
